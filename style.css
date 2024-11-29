@@ -91,13 +91,17 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 2.5rem;
-  margin-top: 1rem;
+  gap: 1rem;
+  /* margin-top: 1rem; */
 }
 .work {
   text-align: center;
-  font-size: 0.6rem;
+  font-size: 0.6rem !important;
+  scale: 0.6;
   font-weight: 300;
+}
+.work h1{
+  font-weight: 700;
 }
 .work h2 {
   color: hsl(14, 12%, 45%);
@@ -174,7 +178,7 @@ body {
   display: flex;
   gap: 5rem;
   flex-wrap: wrap;
-  padding: 5rem;
+  padding: 3.5rem 5rem;
 }
 
 ul li {
@@ -192,10 +196,10 @@ ul li p {
 #projects{
     display: flex;
     padding-top: 5rem;
-    padding-left: 15rem;
+    padding-left: 12rem;
     /* flex-direction: column; */
     flex-wrap: wrap;
-    width: 60%;
+    width: 70%;
     gap: 3vw;
 }
 #projects{
@@ -262,7 +266,7 @@ footer {
     flex-wrap: wrap;
     padding: 0;
     padding-top: 5rem;
-    margin-left: 17vw;
+    margin-left: 8vw;
   }
   #project-section {
     overflow-x: hidden;
@@ -286,3 +290,12 @@ footer{
 }
 
 }
+.active {
+  padding: 0; 
+   border-radius: 0;
+  }
+  .carousel-inner img{
+    object-fit: cover !important;
+    width: 100% !important;
+    height: 100% !important;
+  }
