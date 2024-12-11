@@ -14,7 +14,7 @@ let projectLink = document.querySelector(".project-link p");
 function gsapAnimation(){
     let s1 = gsap.timeline();
     s1.from(".g", {
-        y:-40,
+        y:-50,
         duration:1,
         delay:0.5,
         opacity:0,

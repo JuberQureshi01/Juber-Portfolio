@@ -21,11 +21,12 @@
     <title>Juber Portfolio</title>
   </head>
   <body>
-    <div id="nav" >
+   
+    <div id="main" >
+      <div id="nav" class="g" >
         <i id="dark" class="ri-moon-clear-line dark g"></i>
         <i id="light" class="ri-sun-line light g"></i>
       </div>
-    <div id="main" >
       <div id="profile" class="g">
         <div class="g" id="img">
           <img src="./assets/profilepic.jpg" alt="wait for it to load" />
@@ -54,10 +55,12 @@
         <button class="dwn"><a href="./assets/Juber Qureshi Resume.pdf" download="Juber Qureshi Resume.pdf">Download Resume</a> <i class="ri-file-download-line"></i></button>
         <button><a  style="text-decoration: none; color: black;" href="https://wa.me/916376816181?text=Hello%20and%20greetings!%20I%20hope%20this%20message%20finds%20you%20well."><i class="ri-whatsapp-line"></i></a></button>
     </div>
-    <div id="section" class="g">
-        <div id="skill" class="active">Skills</div>
-        <div id="projectsBtn" >Projects</div>
-    </div>
+
+    <div id="section-parent"><div id="section" class="g">
+      <div id="skill" class="active">Skills</div>
+      <div id="projectsBtn" >Projects</div>
+  </div></div>
+    <div id="skill-parent">
     <div id="skill-section" class="g">
     <div class="skills">
         <ul>
@@ -90,6 +93,9 @@
         </ul>
     </div>
 </div>
+</div>
+
+<div id="project-parent">
 <div class="projects__content grid filters__active g" data-content="" id="projects">
   <article class="projects__card">
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
@@ -187,6 +193,7 @@
       </div>
     </div>
   </article>
+</div>
 </div>
     <footer>
       <p class="g">&#169;Juber Qureshi. Made with &#10084. All rights reserved</p>
